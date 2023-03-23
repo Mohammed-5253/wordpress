@@ -365,7 +365,7 @@ diagnosticMode:
 service:
   ## @param service.type %%MAIN_CONTAINER_NAME%% service type
   ##
-  type: LoadBalancer
+  type: ClusterIP
   ## @param service.ports.http %%MAIN_CONTAINER_NAME%% service HTTP port
   ## @param service.ports.https %%MAIN_CONTAINER_NAME%% service HTTPS port
   ##
